@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+ }
+
+section { 
+  background-color: lightgray; 
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 20px 30px 20px;
+  font-size: 28px;
+}
+
+h2 {
+ width:40% ;
+ margin: 0;
+ float: right;
+ border: 1px solid black;
+ font-size: 20px;
+ ;
+ 
+ text-align: center;
+
+}
+
+#pizza h2 {
+  background-color: #F9AA94 ;
+}
+
+#pasta h2 {
+  background-color: #FF4B23;
+  color: white;
+}
+
+#fries h2 {
+  background-color: #FFE690;
+}
+
+p {
+  padding: 10px;
+  margin: 0;
+  clear: right;
+}
+
+@media (min-width:992px) {
+ div {
+   width: 33.33%;
+   float: left;
+ }
+ section {
+   margin: 15px;
+ }
+
+}
+
+@media  (min-width:768px) and (max-width:991px) {
+  div#pizza,div#pasta{
+    width: 50%;
+    float: left;
+  }
+
+  div#fries {
+    width:100%;
+    clear:both;
+  } 
+ 
+  #pizza section {
+    margin: 10px 10px 20px 20px;
+  }
+  #pasta section {
+    margin: 10px 20px 20px 10px;
+  }
+
+  #fries section {
+    margin: 20px;
+  }
+
+  #pizza h2 {
+    width: 45%;
+  }
+  #pasta h2 {
+    width: 45%;
+  }
+
+  #fries h2 {
+    width: 20%;
+  }
+}
+
+@media (max-width:767px) {
+  div {
+   width: 100%;
+ }
+
+ section {
+   margin: 20px 50px;
+ }
+
+ h2 {
+   width: 30%;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
