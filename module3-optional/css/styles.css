@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;700&display=swap');
+
+.navbar-brand {
+  font-family: 'MuseoModerno', cursive;
+}
+
+ #pizza {
+	color: #ab0000;
+} 
+
+ #pasta {
+    color: #0052ab;
+ }
+
+ #fries {
+ 	color: #0f6477;
+}
+
+p {
+  font-size: 20px;
+}
+ 
+
+ section {
+ 	background-color: #D3D3D3;
+ }
+
+
+nav {
+	background-color: #ffce1f;
+}
+
+section a {
+	padding-left: 10px;
+}
+
+a.nav-link:hover {
+  background-color: #ffe176; 
+  font-size: 18px;
+}
+

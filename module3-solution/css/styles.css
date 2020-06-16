@@ -12,16 +12,8 @@ p {
   font-size: 20px;
 }
 
-/*.chicken {
-	border : 3px solid #000000;
-}*/ 
-
 nav {
 	background-color: #ffce1f;
-}
-
-.navbar-light .navbar-nav .nav-link {
-	color: #000000;
 }
 
 div#chicken {
