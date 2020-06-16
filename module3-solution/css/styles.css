@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;700&display=swap');
+
+.navbar-brand {
+  font-family: 'MuseoModerno', cursive;
+}
+
+ h3 {
+	color: #F9AA94;
+} 
+
+p {
+  font-size: 20px;
+}
+
+.chicken {
+	border : 3px solid #000000;
+} 
+
+nav {
+	background-color: #ffce1f;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #000000;
+}
+
+
+
+
+
